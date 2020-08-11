@@ -16,6 +16,6 @@
         "phpseclib/mcrypt_compat": "Polyfil for mcrypt extension"
     },
     "autoload": {
-        "psr-0": { "Horus": "Horus"}
+        "psr-0": { "Horus": "."}
     }
 }
