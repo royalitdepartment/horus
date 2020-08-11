@@ -1,0 +1,21 @@
+{
+    "name": "horusframework/Horus",
+    "description": "PHP micro framework",
+    "version": "0.1-beta",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "illuminate/database": "^7.2",
+        "illuminate/container": "^7.2",
+        "illuminate/events": "^7.2",
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "minimum-stability": "stable",
+    "suggest": {
+        "ext-mcrypt": "Required for HTTP cookie encryption",
+        "phpseclib/mcrypt_compat": "Polyfil for mcrypt extension"
+    },
+    "autoload": {
+        "psr-0": { "Horus": "Horus"}
+    }
+}
